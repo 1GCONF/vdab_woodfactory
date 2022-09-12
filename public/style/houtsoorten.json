@@ -1,0 +1,38 @@
+[
+    {
+        "naam": "bangkirai",
+        "eenheid": "stuks"
+    },
+    {
+        "naam": "beukenhout",
+        "eenheid": "stuks"
+    },
+    {
+        "naam": "dennenhout",
+        "eenheid": "stuks"
+    },
+    {
+        "naam": "eikenhout",
+        "eenheid": "stuks"
+    },
+    {
+        "naam": "kastanjehout",
+        "eenheid": "stuks"
+    },
+    {
+        "naam": "lindehout",
+        "eenheid": "stuks"
+    },
+    {
+        "naam": "notenhout",
+        "eenheid": "stuks"
+    },
+    {
+        "naam": "rubberhout",
+        "eenheid": "stuks"
+    },
+    {
+        "naam": "cederhout",
+        "eenheid": "kg"
+    }
+]

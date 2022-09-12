@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-shadow: 0 4px 4px rgba(25, 25, 25, 0.25);
+  font-family: "Kameron", serif;
+  font-weight: 200;
+}
+
+body {
+  font-size: 21px;
+  margin: 0px;
+  color: #666;
+  background: #a07c58 url(images/background.png) repeat;
+}
+body header {
+  position: relative;
+  height: 5em;
+  background: url(images/banner.jpg) top left no-repeat;
+  padding-bottom: 1em;
+}
+body h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3em;
+  color: #005C6E;
+  margin: 0.6em 0 0.75em 0.3em;
+}
+body #userform {
+  background-color: white;
+}
+body legend {
+  padding: 0 1em;
+  width: auto;
+}
+body footer {
+  clear: both;
+  font-size: 80%;
+  color: #fff;
+  min-height: 3em;
+  background: url(images/banner.jpg) top left no-repeat;
+}
+body footer p {
+  margin: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */

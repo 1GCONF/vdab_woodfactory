@@ -1,0 +1,27 @@
+[
+    {
+        "naam": "houtsoorten herkennen",
+        "duurtijd": "4 weken",
+        "prijs": 259
+    },
+    {
+        "naam": "planken zagen",
+        "duurtijd": "4 dagen",
+        "prijs": 138
+    },
+    {
+        "naam": "parketvloer leggen",
+        "duurtijd": "2 dagen",
+        "prijs": 57
+    },
+    {
+        "naam": "hout beitsen",
+        "duurtijd": "4 uren",
+        "prijs": 21
+    },
+    {
+        "naam": "houtbewerking",
+        "duurtijd": "2 weken",
+        "prijs": 204
+    }
+]

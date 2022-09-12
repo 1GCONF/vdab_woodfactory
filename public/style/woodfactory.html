@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <script src="woodfactory.js" defer></script>
+  <meta charset="UTF-8">
+  <title>The Wood Factory</title>
+  <link rel="icon" href="woodfactory.ico" type="image/x-icon">
+  <!-- <link href="bootstrap/css/bootstrap_custom.min.css" rel="stylesheet" /> -->
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="container">
+    <h1>The Wood Factory</h1>
+  </header>
+  <div class="container" id="userform">
+    <form class="form-horizontal">
+      <fieldset>
+        <legend>Schrijf je in</legend>
+        <div class="container">
+          <div class="row">
+            <div class="span7">
+              <div class="control-group">
+                <label class="control-label" for="cursus">cursus:</label>
+                <div class="controls">
+                  <select id="cursus" required>
+                    <option value="">--- maak een keuze ---</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="span4 valid">
+              <div id="cursusDetail" hidden class="alert alert-success"></div>
+            </div>
+            <div class="span1">
+            </div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset id="persoonlijk">
+        <legend>Persoonlijke gegevens</legend>
+        <div class="container">
+          <div class="row">
+            <div class="span7">
+              <div class="control-group">
+                <label class="control-label" for="naam">naam:</label>
+                <div class="controls">
+                  <input type="text" id="naam" required>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="voornaam">voornaam:</label>
+                <div class="controls">
+                  <input type="text" id="voornaam" required>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="straat">straat:</label>
+                <div class="controls">
+                  <input type="text" id="straat" required>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="huisnummer">huisnummer:</label>
+                <div class="controls">
+                  <input type="text" id="huisnummer" required>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="gemeente">gemeente:</label>
+                <div class="controls">
+                  <select id="gemeente" required>
+                    <option value="">-- maak een keuze --</option>
+                    <option value="2000">2000 Antwerpen</option>
+                    <option value="9000">9000 Gent</option>
+                    <option value="9300">9300 Aalst</option>
+                    <option value="9400">9400 Ninove</option>
+                    <option value="9450">9450 Haaltert</option>
+                  </select>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="telefoon">telefoon:</label>
+                <div class="controls">
+                  <input type="tel" id="telefoon" required>
+                </div>
+              </div>
+              <div class="control-group">
+                <label class="control-label" for="email">e-mail:</label>
+                <div class="controls">
+                  <input type="email" id="email" required>
+                </div>
+              </div>
+            </div>
+            <div class="span4 valid">
+              <div id="persoonBoodschappen" hidden class="alert alert-error">
+                <ul id="persoonBoodschappenLijst">
+                </ul>
+              </div>
+            </div>
+            <div class="span1"></div>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Bestelgegevens</legend>
+        <div class="container">
+          <div class="row">
+            <div class="span7" id="houtsoorten">
+              <div class="control-group">
+                <div class="controls">
+                </div>
+              </div>
+            </div>
+            <div class="span4 valid">
+              <div id="bestelBoodschappen" hidden class="alert alert-error">
+                <ul id="bestelBoodschappenLijst">
+                </ul>
+              </div>
+            </div>
+            <div class="span1"></div>
+          </div>
+          <div class="form-actions">
+            <button id="verzenden" class="btn btn-success" type="button">Verzenden</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+  <footer class="container">
+    <p>&copy; 2013 The Wood Factory </p>
+  </footer>
+</body>
+
+</html>
